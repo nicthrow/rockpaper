@@ -1,0 +1,17 @@
+#grad {
+    background-image: linear-gradient(to right -90deg, #141E30, #243b55);
+    background-color: #141E30;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 60px;
+    padding: 200px, 0px, 0px, 0px;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

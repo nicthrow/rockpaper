@@ -1,27 +1,23 @@
-function playRound (computerSelection)
-
-
-
-function checkSelection (playerSelection, computerSelection) {
-     if (playerSelection == "rock" && computerSelection == "rock") {
+function singleRound (playerSelection, computerSelection) {
+     if (playerSelection == "rock" && computerSelection == "rock") 
         {
-            return "It is a Draw! Rock vs Rock";
+            return "Whoa There Partner! It's a Draw! Rock vs Rock";
         } else if (playerSelection == "rock" && computerSelection == "paper") {
-            return "You lose! Paper beats Rock";
+            return "There's No Crying in this Game! Paper beats Rock";
         } else if  (playerSelection == "rock" && computerSelection == "scissors") {
-            return "You win! Rock beats Scissors";
+            return "Winner, Winner, Chicken Dinner! Rock beats Scissors";
         } else if (playerSelection == "paper" && computerSelection == "rock") {
-            return "You win! Paper beats rock";
+            return "Winning Feels Good! Paper beats Rock";
         } else if (playerSelection == "paper" && computerSelection == "scissors") {
-            return "Scissors beats Paper";
+            return "Ouch. I Bet This Cuts Deep. Scissors beats Paper";
         } else if (playerSelection == "paper" && computerSelection == "paper") {
-            return "A Draw is a Draw! Try Again!";
+            return "Whoa There Partner! It's a Draw!";
         } else if (playerSelection == "scissors" && computerSelection == "rock") {
-            return "You lose! Rock beats Scissors";
+            return "Serving Up a Fresh Hot L! Rock beats Scissors";
         } else if (playerSelection == "scissors" && computerSelection == "paper") {
-            return "You win! Scissors beats paper";
+            return "Welcome to the Winners Circle! Scissors beats Paper";
         } else if (playerSelection == "scissors" && computerSelection == "scissors") {
-            return "A Draw is a Draw! Try Again!";
+            return "Whoa There Partner! It's a Draw!";
         }
-    };
-}
+        break;
+};
